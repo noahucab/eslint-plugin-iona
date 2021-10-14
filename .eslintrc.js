@@ -17,6 +17,7 @@ module.exports = {
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-filename-extension": [2, { extensions: [".js", ".jsx"] }],
   },
   plugins: ["html", "prettier", "react-hooks"],
 };

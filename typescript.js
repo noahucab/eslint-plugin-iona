@@ -17,7 +17,9 @@ module.exports = {
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
-  rules: {},
+  rules: {
+    "react/jsx-filename-extension": [2, { extensions: [".ts", ".tsx"] }],
+  },
   parserOptions: {
     project: "./tsconfig.json",
   },

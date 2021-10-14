@@ -15,7 +15,13 @@ Before we go with the installation, let's first install the following:
 "editor.defaultFormatter": "esbenp.prettier-vscode",
 "editor.codeActionsOnSave": {
   "source.fixAll.eslint": true
-}
+},
+"eslint.validate": [
+  "javascript",
+  "javascriptreact",
+  "typescript",
+  "typescriptreact"
+],
 ```
 
 ## Installation
@@ -33,7 +39,7 @@ $ npx install-peerdeps --dev eslint-config-airbnb
 For **yarn**, since there is no equivalent `npx` tool, we need to run this long command:
 
 ```
-$ yarn add eslint-config-iona@0.0.11 @types/node@^16.7.13 @typescript-eslint/eslint-plugin@^4.31.0 @typescript-eslint/parser@^4.31.0 eslint@^7.32.0 eslint-config-airbnb@^18.2.1 eslint-config-airbnb-typescript@^14.0.0 eslint-config-prettier@^8.3.0 eslint-plugin-html@^6.1.2 eslint-plugin-import@^2.24.2 eslint-plugin-jsx-a11y@^6.4.1 eslint-plugin-prettier@^4.0.0 eslint-plugin-react@^7.25.1 eslint-plugin-react-hooks@^4.2.0 prettier@^2.3.2 typescript@^4.4.2 @babel/eslint-parser@^7.15.4 @babel/preset-react@^7.14.5 --save-dev
+$ yarn add eslint-config-iona@0.0.12 @types/node@^16.7.13 @typescript-eslint/eslint-plugin@^4.31.0 @typescript-eslint/parser@^4.31.0 eslint@^7.32.0 eslint-config-airbnb@^18.2.1 eslint-config-airbnb-typescript@^14.0.0 eslint-config-prettier@^8.3.0 eslint-plugin-html@^6.1.2 eslint-plugin-import@^2.24.2 eslint-plugin-jsx-a11y@^6.4.1 eslint-plugin-prettier@^4.0.0 eslint-plugin-react@^7.25.1 eslint-plugin-react-hooks@^4.2.0 prettier@^2.3.2 typescript@^4.4.2 @babel/eslint-parser@^7.15.4 @babel/preset-react@^7.14.5 --dev
 ```
 
 ### 2. Create `.eslintrc.json file and add the following code:

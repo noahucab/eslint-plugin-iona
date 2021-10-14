@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-iona",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "This package provides extensible linting rulese for React project.",
   "main": "index.js",
   "keywords": [

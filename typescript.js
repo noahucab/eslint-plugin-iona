@@ -1,10 +1,12 @@
+const eslintrc = require("./.eslintrc");
+
 module.exports = {
   globals: {
     React: true,
     JSX: true,
   },
   env: {
-    React: true,
+    ...eslintrc.env,
   },
   extends: [
     "plugin:@typescript-eslint/recommended",

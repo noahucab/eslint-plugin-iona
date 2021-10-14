@@ -6,7 +6,7 @@ module.exports = {
     JSX: true,
   },
   env: {
-    ...eslintrc,
+    ...eslintrc.env,
     React: true,
   },
   extends: [

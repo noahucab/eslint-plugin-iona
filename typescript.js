@@ -1,12 +1,9 @@
-const eslintrc = require("./.eslintrc");
-
 module.exports = {
   globals: {
     React: true,
     JSX: true,
   },
   env: {
-    ...eslintrc.env,
     React: true,
   },
   extends: [
